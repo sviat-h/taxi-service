@@ -1,7 +1,7 @@
 # :oncoming_taxi: Taxi-Service :oncoming_taxi:
 ### Project description:
 ```
-A simple web-application supports authentication, registration and other CRUD operations.
+A simple web-application that supports authentication, registration and other CRUD operations.
 ```
 ## Features:
 - registration like a driver;
@@ -14,11 +14,11 @@ A simple web-application supports authentication, registration and other CRUD op
 - display list of all drivers;
 - display list of all cars by current driver;
 - add driver to car.
+## Project structure (3-layer architecture):
+- DAO - Data access layer
+- Service - Application logic layer
+- Controllers - Presentation layer
 ## Used technologies and libraries:
-- 3-layer architecture:
-  - DAO - Data access layer
-  - Service - Application logic layer
-  - Controllers - Presentation layer
 - Java 11
 - Git
 - Apache Maven
